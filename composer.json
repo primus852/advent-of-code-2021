@@ -1,0 +1,25 @@
+{
+    "name": "torte/advent-of-code-2021",
+    "description": "Advent of Code 2021",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AoC\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AoC\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Torte",
+            "email": "tow.berlin@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
